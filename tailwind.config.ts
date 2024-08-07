@@ -6,7 +6,13 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    fontFamily: {
+      display: ["Orbitron", "Arial", "Helvetica", "Verdana", "sans-serif"],
+      sans: ["Roboto", "Arial", "Helvetica", "Verdana", "sans-serif"],
+      mono: ["Roboto Mono", "Courier New", "Monaco", "monospace"],
+    },
+  },
   plugins: [],
 };
 export default config;
