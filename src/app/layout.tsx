@@ -3,8 +3,9 @@ import { Orbitron, Roboto, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "",
-  description: "",
+  title: "Kyle Betts",
+  description:
+    "Kyle Betts' portfolio website showcasing software development skills and unique professional hockey background.",
 };
 
 const orbitron = Orbitron({
