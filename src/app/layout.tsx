@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Orbitron, Roboto, Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import NavBar from "./views/NavBar/NavBar";
 
 export const metadata: Metadata = {
   title: "Kyle Betts",
@@ -36,10 +37,13 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      className={`${orbitron.className} ${roboto.className} ${robotoMono.className}`}
+      className={`${orbitron.className} ${roboto.className} ${robotoMono.className} scroll-smooth`}
       lang="en"
     >
-      <body></body>
+      <body className="bg-neutral-900">
+        <NavBar />
+        <main className="min-h-screen pt-12">{children}</main>
+      </body>
     </html>
   );
 }
