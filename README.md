@@ -8,6 +8,7 @@ Personal site of a Cornell ECE grad and former Cornell hockey captain, moving fr
 
 - **Framework:** Next.js 16 (App Router, Cache Components, React Compiler), React 19, TypeScript
 - **Styling:** CSS Modules
+- **3D:** Three.js, React Three Fiber, drei
 - **Tooling:** pnpm, ESLint, Prettier, GitHub Actions
 
 ## Getting started
