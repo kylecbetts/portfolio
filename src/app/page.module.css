@@ -1,11 +1,4 @@
 .main {
-  display: grid;
-  place-items: center;
-  min-height: 100dvh;
-}
-
-.status {
-  font-family: var(--font-geist-mono);
-  font-size: 0.875rem;
-  letter-spacing: 0.1em;
+  height: 100dvh;
+  background: #eef2f6;
 }

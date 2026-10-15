@@ -1,5 +1,5 @@
 {
-  "cSpell.words": ["Betts", "drei", "nvmrc", "vercel"],
+  "cSpell.words": ["Betts", "drei", "nvmrc", "vercel", "webgpu"],
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
