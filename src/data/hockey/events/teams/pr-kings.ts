@@ -1,0 +1,116 @@
+import type { Event } from "../types";
+
+export const prKingsEvents = [
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "av-bulldogs",
+    seasons: ["2015-2016", "2016-2017"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "chw-chiefs",
+    seasons: ["2015-2016", "2016-2017"],
+  },
+  {
+    kind: "neutral",
+    name: "2015 BCHL Showcase",
+    team: "pr-kings",
+    opponents: ["coq-express", "sur-eagles"],
+    rink: "prospera-centre",
+    seasons: ["2015-2016"],
+  },
+  {
+    kind: "neutral",
+    name: "2016 BCHL Showcase",
+    team: "pr-kings",
+    opponents: ["tra-smoke-eaters", "wen-wild"],
+    rink: "prospera-centre",
+    seasons: ["2016-2017"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "coq-express",
+    seasons: ["2015-2016", "2016-2017"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "cv-capitals",
+    seasons: ["2015-2016", "2016-2017"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "lan-rivermen",
+    seasons: ["2016-2017"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "mer-centennials",
+    seasons: ["2015-2016", "2016-2017"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "nan-clippers",
+    seasons: ["2015-2016", "2016-2017"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "pen-vees",
+    seasons: ["2015-2016", "2016-2017"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "pg-spruce-kings",
+    seasons: ["2015-2016", "2016-2017"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "sa-silverbacks",
+    seasons: ["2016-2017"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "sur-eagles",
+    seasons: ["2015-2016"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "tra-smoke-eaters",
+    seasons: ["2015-2016"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "ver-vipers",
+    seasons: ["2016-2017"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "vic-grizzlies",
+    seasons: ["2015-2016", "2016-2017"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "wen-wild",
+    seasons: ["2015-2016"],
+  },
+  {
+    kind: "roadGame",
+    team: "pr-kings",
+    opponent: "wk-warriors",
+    seasons: ["2015-2016"],
+  },
+] as const satisfies Array<Event & { team: "pr-kings" }>;
